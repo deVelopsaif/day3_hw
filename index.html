@@ -1,0 +1,74 @@
+<html>
+    <heda>
+        <title> Form CW </title>
+    </head>
+    <body>
+        <fieldset>
+            <legend> Personel details </legend>
+            <form autocomplete>
+                <lable for="fname"> Firstname </lable>
+                <input type="text" name="fname" required>
+                <br><br>
+                <lable for="mname"> Middlename </lable>
+                <input type="text" name="mname">
+                <br><br>
+                <lable for="lname"> Lastname </lable>
+                <input type="text" name="lname" required>
+                <br><br>
+                <label for="course">Course:</label>
+                <select>
+                    <option value="course">Course</option>
+                    <option value="course">BCA</option>
+                    <option value="course">BBA</option>
+                    <option value="course">B.Tech</option>
+                    <option value="course">MCA</option>
+                    <option value="course">MBA</option>
+                    <option value="course">M.Tech</option>
+                </select>
+                <br><br>
+                <label for="gender"> Gender </label>
+                <br>
+                <input type="radio" name="gender">
+                <lable for="gender"> Male </lable>
+                <br>
+                <input type="radio" name="gender">
+                <lable for="gender"> Female </lable>
+                <br>
+                <input type="radio" name="gender">
+                <lable for="gender"> Other </lable>
+                <br><br>
+                <lable for="dob"> DOB </lable>
+                <input type="datetime-local" name="dob">
+                <br>
+                <label for="phoneNumber"> Phone:</label>
+                <input type="text" placeholder="+91" size="1" disabled>
+                <input type="number" name="phoneNumber" required>
+                <br><br>
+                <label for="address"> Address </label>
+                <br>
+                <textarea name="address" rows="5" cols="40"></textarea>
+                <br><br>
+                <lable for="email"> Email: </lable>
+                <input type="email" name="email" required>
+                <br><br>
+                <lable for="password"> Password: </lable>
+                <input type="password" name="password" required>
+                <br><br>
+                <lable for="repass"> Re-type password: </lable>
+                <input type="password" name="repass" required>
+                <br><br>
+                <input type="checkbox" name="">
+                <label for=""> Agree to terms and condition </label>
+                <br><br>
+                <lable for="file"> Choose File </lable>
+                <input type="file" name="file">
+                <br><br>
+                <lable for="colour"> Choose Color </lable>
+                <input type="color" name="color">
+                <br><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+    </body>
+</html>
